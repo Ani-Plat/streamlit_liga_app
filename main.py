@@ -4,6 +4,8 @@ import streamlit as st
 import pandas as pd
 import datetime as dt
 from dateutil.relativedelta import relativedelta
+from sqlalchemy import create_engine
+
 
 howWarningOnDirectExecution = False
 st.set_page_config(layout="wide")
