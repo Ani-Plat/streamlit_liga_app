@@ -1,6 +1,7 @@
 import os
 import streamlit as st
 import pandas as pd
+import matplotlib
 import matplotlib.pyplot as plt
 import datetime as dt
 from dateutil.relativedelta import relativedelta
